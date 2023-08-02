@@ -1,0 +1,2 @@
+# Tic-Tac-Toe Game
+This is a web-based Tic-Tac-Toe game built using HTML, CSS, and JavaScript. Play against an AI opponent that makes moves based on a simple algorithm. Click on an empty cell to place your X. The AI will place O. Win by getting three X's in a row, column, or diagonal. The AI blocks your wins and makes random moves otherwise. Refresh the page to start a new game. Have fun!

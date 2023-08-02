@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.board{
+    background-color: white;
+    /* width: 345px;
+    height: 345px; */
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 5px;
+    padding: 10px;
+}
+
+.cell{
+    height: 90px;
+    width: 90px;
+    background-image: '';
+    background-size:cover;
+    margin: 0;
+}
+
+.cell_wrapper{
+    height: 100px;
+    width: 100px;
+    border: 2px dashed gray;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: white;
+    margin: 0;
+}
