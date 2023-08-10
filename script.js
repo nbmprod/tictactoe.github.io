@@ -113,6 +113,7 @@ function isGameOver() {
 function resetGame() {
   playerXSlot.length = 0;
   playerOSlot.length = 0;
+  isPlayerTurn = true;
 
 
   cell.forEach(element => {
